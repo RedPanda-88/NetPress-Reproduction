@@ -1,0 +1,49 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "actionApplication": [
+                {
+                    "@id": "#ChameleonJupyterLab"
+                }
+            ],
+            "author": [
+                {
+                    "@id": "#author_0"
+                }
+            ],
+            "datePublished": "2025-12-31T04:21:50+00:00",
+            "description": "test",
+            "disambiguatingDescription": "This artifact is successfully reproduction on NetPress: Dynamically Generated LLM Benchmarks for Network Applications",
+            "keywords": "reproducible research",
+            "name": "LLM Benchmarks for Network Application with NetPress Reproducibility"
+        },
+        {
+            "@id": "trovi.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#author_0",
+            "@type": "Person",
+            "affiliation": "Universitas Dian Nuswantoro",
+            "email": "krishnapati086@gmail.com",
+            "name": "Krisna Nindya Kambara"
+        },
+        {
+            "@id": "#ChameleonJupyterLab",
+            "@type": "SoftwareApplication",
+            "name": "Chameleon JupyterLab",
+            "trovi_arguments": "{}",
+            "trovi_type": "jupyterhub",
+            "url": "https://jupyter.chameleoncloud.org/"
+        }
+    ]
+}
